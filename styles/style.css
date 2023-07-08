@@ -1,0 +1,47 @@
+/* Global fonts apply */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style */
+.title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+
+}
+
+.text-orange {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 35px;
+    color: white;
+}
