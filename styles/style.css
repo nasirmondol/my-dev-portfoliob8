@@ -186,7 +186,39 @@ nav a {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.university{
+
+.university {
     margin-bottom: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
+}
+
+.resume-cv {
+    text-align: center;
+}
+
+.footer-container {
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 30px 150px;
+    gap: 147px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-container input,
+textarea {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 75%;
+}
+.social a{
+    margin-right: 20px;
 }
