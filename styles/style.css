@@ -4,6 +4,10 @@ body {
 }
 
 /* header style */
+.header {
+    background-color: #FFF8F3;
+}
+
 .title {
     font-weight: 800;
     font-size: 45px;
@@ -19,6 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 226px;
 }
 
 nav>ul {
@@ -44,4 +49,15 @@ nav a {
     font-weight: 700;
     padding: 10px 35px;
     color: white;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 226px;
+}
+
+.banner-image {
+    width: 584px;
+    height: 676px;
 }
