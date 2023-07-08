@@ -55,9 +55,36 @@ nav a {
     display: flex;
     align-items: center;
     margin-left: 226px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner-image {
     width: 584px;
-    height: 676px;
+    height: 576px;
+}
+
+.banner-grettings {
+    color: var(--dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-heading {
+    margin-top: 0px;
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--dark-02, #474747);
+    margin-bottom: 0px;
+}
+
+.banner-desctiption {
+    margin-top: 0px;
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
