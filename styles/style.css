@@ -59,9 +59,9 @@ nav a {
     display: flex;
     align-items: center;
     margin-left: 226px;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner-image {
@@ -219,6 +219,7 @@ textarea {
     line-height: 20px;
     width: 75%;
 }
-.social a{
+
+.social a {
     margin-right: 20px;
 }
