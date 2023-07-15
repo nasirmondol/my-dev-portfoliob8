@@ -64,7 +64,7 @@ nav a {
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     background-image: url('../images/developer.png');
     background-position: top left;
     width: auto;
@@ -230,12 +230,22 @@ textarea {
     margin-right: 20px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-@media screen  and (max-width: 576px){
-    .skil-container{
+@media screen and (max-width: 576px) {
+    .body {
+        width: 90%;
+    }
+
+    .skil-container,
+    nav,
+    nav>ul,
+    .banner,
+    .text-container,
+    .resume-container,
+    .footer-container {
         flex-direction: column;
         width: 100%;
         margin-left: 0px;
@@ -243,11 +253,62 @@ textarea {
     }
 
 
-    #what-do{
+    nav>ul>li {
+        margin-bottom: 40px;
+    }
+
+    .banner {
+        background-image: none;
+        margin-left: 20px;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+
+    .text-container {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    .about-container {
+        margin: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px 20px;
+    }
+
+    .resume-container {
+        margin-left: 15px;
+    }
+
+    .footer-container {
+        margin-left: 15px;
+        padding: 0px 0px;
+    }
+
+    .footer-column {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .input-submit {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #what-do {
         text-align: center;
         padding: 0px;
     }
-    .skill{
+
+    .skill {
         height: 300px;
         width: 400px;
         margin-top: 20px;
