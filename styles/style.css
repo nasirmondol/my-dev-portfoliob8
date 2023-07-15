@@ -59,9 +59,15 @@ nav a {
     display: flex;
     align-items: center;
     margin-left: 226px;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    background-position: bottom right;
+}
+
+.banner{
+    background-image: url('../images/developer.png');
+    background-position: top left;
+    width: auto;
 }
 
 .banner-image {
@@ -222,4 +228,29 @@ textarea {
 
 .social a {
     margin-right: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen  and (max-width: 576px){
+    .skil-container{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+
+    #what-do{
+        text-align: center;
+        padding: 0px;
+    }
+    .skill{
+        height: 300px;
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
